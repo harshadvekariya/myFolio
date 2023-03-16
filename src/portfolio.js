@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Harshad Vekariya Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "",
   },
 };
 
