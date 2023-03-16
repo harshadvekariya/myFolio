@@ -26,7 +26,7 @@ const greeting = {
     "A passionate individual who always thrives to develop smart and sustainable technology.",
   resumeLink:
     "https://drive.google.com/file/d/1m2q5N0G1bAXYCeqgRdBIyGD1a3Ky6WhU/view?usp=share_link",
-  portfolio_repository: "https://github.com/harshadvekariya/masterPortfolio",
+  portfolio_repository: "https://github.com/harshadvekariya/myFolio",
   githubProfile: "https://github.com/harshadvekariya",
 };
 
