@@ -29,6 +29,13 @@ import ProjectsData from "../../shared/opensource/projects.json";
 import "../../pages/projects/Projects.css";
 import ProjectsImg from "../../pages/projects/ProjectsImg";
 
+import ha_img from "../../assests/images/home_automation_img.jpg";
+import ip_img from "../../assests/images/infusion_img.jpg";
+import pt_img from "../../assests/images/pan-tilt_img.jpg";
+import robo_img from "../../assests/images/bots_img.jpg";
+import pd_img from "../../assests/images/pore_img.jpg";
+import bidzy_img from "../../assests/images/bidyzy_img.jpg";
+
 class Home extends Component {
   render() {
     const theme = this.props.theme;
@@ -74,10 +81,7 @@ class Home extends Component {
         <div class="content">
           <div class="grid">
             <figure class="effect-romeo">
-              <img
-                src="https://tympanus.net/Development/HoverEffectIdeas/img/17.jpg"
-                alt="img17"
-              />
+              <img src={ha_img} alt="img17" />
               <figcaption>
                 <h2>
                   IoT-Home automation <span>2014</span>
@@ -91,10 +95,7 @@ class Home extends Component {
               </figcaption>
             </figure>
             <figure class="effect-dexter">
-              <img
-                src="https://tympanus.net/Development/HoverEffectIdeas/img/19.jpg"
-                alt="img19"
-              />
+              <img src={ip_img} alt="img19" />
               <figcaption>
                 <h2>
                   Infusion pump <span>2015</span>
@@ -108,10 +109,7 @@ class Home extends Component {
               </figcaption>
             </figure>
             <figure class="effect-sarah">
-              <img
-                src="https://tympanus.net/Development/HoverEffectIdeas/img/6.jpg"
-                alt="img06"
-              />
+              <img src={pt_img} alt="img06" />
               <figcaption>
                 <h2>
                   Pan-Tilt tracker with Raspberry-Pi for surveillance robot{" "}
@@ -129,10 +127,7 @@ class Home extends Component {
               </figcaption>
             </figure>
             <figure class="effect-oscar">
-              <img
-                src="https://tympanus.net/Development/HoverEffectIdeas/img/3.jpg"
-                alt="img03"
-              />
+              <img src={robo_img} alt="img03" />
               <figcaption>
                 <h2>
                   Wireless robots for robo-competitions <span>2017</span>
@@ -145,10 +140,7 @@ class Home extends Component {
               </figcaption>
             </figure>
             <figure class="effect-zoe">
-              <img
-                src="https://tympanus.net/Development/HoverEffectIdeas/img/25.jpg"
-                alt="img25"
-              />
+              <img src={pd_img} alt="img25" />
               <figcaption>
                 <h2>
                   Pore density analysis <span>2018</span>
@@ -172,10 +164,7 @@ class Home extends Component {
               </figcaption>
             </figure>
             <figure class="effect-bubba">
-              <img
-                src="https://tympanus.net/Development/HoverEffectIdeas/img/9.jpg"
-                alt="img09"
-              />
+              <img src={bidzy_img} alt="img09" />
               <figcaption>
                 <h2>
                   Cutting stock optimization <span>2022</span>
@@ -218,7 +207,6 @@ class Home extends Component {
           {certifications.certifications.length > 0 ? (
             <Certifications theme={this.props.theme} />
           ) : null}
-          <ProjectsImg theme={theme} />
         </div>
 
         <Footer theme={this.props.theme} />
