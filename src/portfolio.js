@@ -1,5 +1,5 @@
 /* Change this file to get your personal Porfolio */
-
+//  reference - https://fontawesome.com/v4/cheatsheet/
 // Website related settings
 const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
@@ -204,59 +204,38 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
+          skillName: "Research",
+          fontAwesomeClassname: "simple-icons:researchgate",
           style: {
             color: "#4285F4",
           },
         },
         {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
+          skillName: "Product development",
+          fontAwesomeClassname: "fa-wrench",
           style: {
-            color: "#FF9900",
+            color: "#0000000",
           },
         },
         {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
+          skillName: "Innovation",
+          fontAwesomeClassname: "fa-lightbulb-o",
           style: {
             color: "#FFCA28",
           },
         },
         {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
+          skillName: "Team work and communication",
+          fontAwesomeClassname: "fa-users",
           style: {
-            color: "#336791",
+            color: "#0000000",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Goal oriented",
+          fontAwesomeClassname: "fa-bullseye",
           style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
+            color: "#4285F4",
           },
         },
       ],
