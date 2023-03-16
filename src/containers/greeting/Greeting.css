@@ -21,17 +21,17 @@
   display: flex;
 }
 
-.greeting-main > * {
+/* .greeting-main > * {
   flex: 1;
   margin-bottom: 30px;
-}
+} */
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
 }
 
 .greeting-text {
-  margin-top: 80px;
+  margin-left: 10%;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
@@ -44,9 +44,9 @@
 }
 
 .greeting-text-p {
+  margin-left: 10%;
   font-size: 40px;
   line-height: 40px;
-  margin-right: 40px;
   font-family: "Google Sans Medium";
 }
 
@@ -83,9 +83,9 @@
     line-height: normal;
     text-align: center;
   }
-  .greeting-main {
+  /* .greeting-main {
     display: block;
-  }
+  } */
 
   .portfolio-repo-btn-div {
     width: 100%;

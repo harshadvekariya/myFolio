@@ -31,7 +31,7 @@ class Header extends Component {
               </span>
               <span style={{ color: theme.text }}>/&gt;</span>
             </NavLink>
-            <input className="menu-btn" type="checkbox" id="menu-btn" />
+            {/* <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
               <span className="navicon"></span>
             </label>
@@ -108,7 +108,7 @@ class Header extends Component {
                   Contact Me
                 </NavLink>
               </li>
-            </ul>
+            </ul> */}
           </header>
         </div>
       </Fade>

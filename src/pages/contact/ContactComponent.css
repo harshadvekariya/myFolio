@@ -32,11 +32,6 @@
   flex: 1;
 }
 
-.contact-heading-img-div {
-  align-items: center;
-  justify-content: center;
-}
-
 .blog-heading-img-div {
   align-items: center;
   justify-content: center;
@@ -57,6 +52,8 @@
 .contact-heading-img-div > * {
   max-width: 100%;
   height: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .blog-heading-img-div > * {

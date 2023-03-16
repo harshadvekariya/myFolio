@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to develop smart and sustainable technology.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://drive.google.com/file/d/1m2q5N0G1bAXYCeqgRdBIyGD1a3Ky6WhU/view?usp=share_link",
   portfolio_repository: "https://github.com/harshadvekariya/masterPortfolio",
   githubProfile: "https://github.com/harshadvekariya",
 };
@@ -122,7 +122,7 @@ const skills = {
         },
         {
           skillName: "SciPy",
-          fontAwesomeClassname: "simple-icons:keras",
+          fontAwesomeClassname: "simple-icons:scipy",
           style: {
             backgroundColor: "white",
             color: "#D00000",
@@ -198,10 +198,9 @@ const skills = {
       title: "R&D, Product development, Intrapreneur, team work, innovation",
       fileName: "DesignImg",
       skills: [
-        "⚡ Demonstrated innovation through various product and process improvements. ",
-        "⚡ Worked with global teams and cross-functional teams to develop solutions",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ End-to-end product development from market research and conceptualization to commercialization",
+        "⚡ Demonstrated innovation through various product and process improvements in the organization. ",
+        "⚡ Coordinated with global teams and cross-functional teams to develop solutions",
       ],
       softwareSkills: [
         {
@@ -517,7 +516,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -577,7 +576,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "harshad_vekariya_c.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
