@@ -322,7 +322,8 @@ const degrees = {
   degrees: [
     {
       title: "Nirma University",
-      subtitle: "B.Tech. in Mechanical Engineering",
+      subtitle:
+        "B.Tech. in Mechanical Engineering | 8.82 CGPA | 5th departmental rank",
       logo_path: "nirma_uni_logo.png",
       alt_name: "Nirma Uni",
       duration: "2015 - 2018",
@@ -335,7 +336,7 @@ const degrees = {
       website_link: "https://nirmauni.ac.in/",
     },
     {
-      title: "Nirma University",
+      title: "Nirma University | 9.52 CGPA | 2nd departmental rank",
       subtitle: "Diploma in Mechanical Engineering",
       logo_path: "nirma_uni_logo.png",
       alt_name: "Nirma Uni",
