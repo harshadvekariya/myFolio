@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "HarshadVekariya",
   nickname: "your beloved Rancho",
   subTitle:
-    "A passionate individual who always thrives to develop smart and sustainable technology.",
+    "Computers are useless. They can only give you answers. - Pablo Picasso.",
   resumeLink:
     "https://drive.google.com/file/d/1m2q5N0G1bAXYCeqgRdBIyGD1a3Ky6WhU/view?usp=share_link",
   portfolio_repository: "https://github.com/harshadvekariya/myFolio",

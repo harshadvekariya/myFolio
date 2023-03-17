@@ -85,7 +85,7 @@ class Home extends Component {
         </div> */}
         <div class="content">
           <div class="grid">
-            <figure class="effect-romeo">
+            <figure class="effect-dexter">
               <img src={ha_img} alt="img17" />
               <figcaption>
                 <h2>
@@ -113,25 +113,23 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>
             </figure>
-            <figure class="effect-sarah">
+            <figure class="effect-dexter">
               <img src={pt_img} alt="img06" />
               <figcaption>
                 <h2>
-                  Pan-Tilt tracker with Raspberry-Pi for surveillance robot{" "}
-                  <span>2018</span>
+                  Pan-Tilt tracker with Raspberry-Pi <span>2018</span>
                 </h2>
                 <p>
                   {" "}
-                  Built a two axis object tracker using Computer Vision to
-                  follow movement of the detected object. Used parallel
-                  programming and lost tracking detection to improve the
-                  tracking. Developed a device to evaluate performance of the
-                  same.
+                  Built a two axis object tracker for surveillance robot using
+                  Computer Vision. Used parallel programming and lost tracking
+                  detection to improve the tracking. Developed a device to
+                  evaluate performance of the same.
                 </p>
                 <a href="#">View more</a>
               </figcaption>
             </figure>
-            <figure class="effect-oscar">
+            <figure class="effect-dexter">
               <img src={robo_img} alt="img03" />
               <figcaption>
                 <h2>
@@ -144,7 +142,7 @@ class Home extends Component {
                 <a href="#">View more</a>
               </figcaption>
             </figure>
-            <figure class="effect-zoe">
+            <figure class="effect-dexter">
               <img src={pd_img} alt="img25" />
               <figcaption>
                 <h2>
@@ -168,7 +166,7 @@ class Home extends Component {
                 </p>
               </figcaption>
             </figure>
-            <figure class="effect-bubba">
+            <figure class="effect-dexter">
               <img src={bidzy_img} alt="img09" />
               <figcaption>
                 <h2>
@@ -190,13 +188,6 @@ class Home extends Component {
         <div className="basic-experience" aria-expanded="true">
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">
-              <div className="experience-heading-img-div">
-                {/* <img
-									src={require(`../../assests/images/${experience["header_image_path"]}`)}
-									alt=""
-								/> */}
-                <ExperienceImg theme={theme} />
-              </div>
               <div className="experience-heading-text-div">
                 <h1
                   className="experience-heading-text"

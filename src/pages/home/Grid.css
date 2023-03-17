@@ -33,8 +33,9 @@
 .grid figure figcaption {
   padding: 2em;
   color: #fff;
-  text-transform: uppercase;
-  font-size: 1.25em;
+  /* text-transform: uppercase; */
+  font-size: 1.1em;
+
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
@@ -64,7 +65,7 @@
 }
 
 .grid figure h2 {
-  word-spacing: -0.15em;
+  /* word-spacing: -0.15em; */
   font-weight: 300;
 }
 
@@ -869,7 +870,7 @@ figure.effect-dexter img {
 }
 
 figure.effect-dexter:hover img {
-  opacity: 0.4;
+  opacity: 0.1;
 }
 
 figure.effect-dexter figcaption::after {
@@ -885,16 +886,28 @@ figure.effect-dexter figcaption::after {
   transition: transform 0.35s;
   -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
+  opacity: 0.5;
 }
 
 figure.effect-dexter:hover figcaption::after {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  opacity: 1;
 }
 
 figure.effect-dexter figcaption {
   padding: 3em;
   text-align: left;
+}
+
+figure.effect-dexter h2 {
+  opacity: 0.5;
+  font-family: "Google Sans Bold";
+}
+
+figure.effect-dexter:hover h2 {
+  opacity: 1;
+  font-family: "Google Sans Bold";
 }
 
 figure.effect-dexter p {
@@ -907,6 +920,7 @@ figure.effect-dexter p {
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0, -100px, 0);
   transform: translate3d(0, -100px, 0);
+  font-family: "Google Sans Regular";
 }
 
 figure.effect-dexter:hover p {
@@ -1258,7 +1272,7 @@ section {
   display: inline-block;
   margin: 0 5px;
   padding: 1em 1.5em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
 }
 
@@ -1272,7 +1286,7 @@ section {
 /* To Navigation Style */
 .codrops-top {
   width: 100%;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 800;
   font-size: 0.69em;
   line-height: 2.2;
