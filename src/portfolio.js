@@ -91,10 +91,10 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Experienced working with Computer Vision and Machine Learning projects",
+        "⚡ Experienced working with Computer Vision and Machine Learning projects.",
         "⚡ Modeling, optimization, algorithms.",
-        "⚡ Data science for Industry 4.0 to improve KPIs",
-        "⚡ Integration with cyber-physical systems",
+        "⚡ Data science for Industry 4.0 to improve KPIs.",
+        "⚡ Integration with cyber-physical systems.",
       ],
       softwareSkills: [
         {
@@ -157,8 +157,8 @@ const skills = {
       title: "Robotics and automation",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Mechanical design and Embedded system development",
-        "⚡ CAD, B&R PLC programming, Industrial automation",
+        "⚡ Mechanical design and Embedded system development.",
+        "⚡ CAD, B&R PLC programming, Industrial automation.",
         "⚡ Experienced with robotics in plastic machinery.",
         "⚡ Personal projects on robotics and IoT systems.  Courses on Aerial robotics, motion planning and mobility.",
       ],
@@ -198,9 +198,9 @@ const skills = {
       title: "R&D, Product development, Intrapreneur, team work, innovation",
       fileName: "DesignImg",
       skills: [
-        "⚡ End-to-end product development from market research and conceptualization to commercialization",
+        "⚡ End-to-end product development from market research and conceptualization to commercialization.",
         "⚡ Demonstrated innovation through various product and process improvements in the organization. ",
-        "⚡ Coordinated with global teams and cross-functional teams to develop solutions",
+        "⚡ Coordinated with global teams and cross-functional teams to develop solutions.",
       ],
       softwareSkills: [
         {
