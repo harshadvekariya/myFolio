@@ -16,6 +16,11 @@ import "../../pages/home/Grid.css";
 
 import { Fade } from "react-reveal";
 
+import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
+import "../../pages/experience/Experience.css";
+import { experience } from "../../portfolio";
+import ExperienceImg from "../../pages/experience/ExperienceImg";
+
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import PublicationCard from "../../components/publicationsCard/PublicationCard";
 import Button from "../../components/button/Button";
@@ -180,6 +185,42 @@ class Home extends Component {
         </div>
 
         <Skills theme={this.props.theme} />
+
+        {/* Experience */}
+        <div className="basic-experience" aria-expanded="true">
+          <Fade bottom duration={2000} distance="40px">
+            <div className="experience-heading-div">
+              <div className="experience-heading-img-div">
+                {/* <img
+									src={require(`../../assests/images/${experience["header_image_path"]}`)}
+									alt=""
+								/> */}
+                <ExperienceImg theme={theme} />
+              </div>
+              <div className="experience-heading-text-div">
+                <h1
+                  className="experience-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {experience.title}
+                </h1>
+                <h3
+                  className="experience-heading-sub-text"
+                  style={{ color: theme.text }}
+                >
+                  {experience["subtitle"]}
+                </h3>
+                <p
+                  className="experience-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {experience["description"]}
+                </p>
+              </div>
+            </div>
+          </Fade>
+        </div>
+        <ExperienceAccordion sections={experience["sections"]} theme={theme} />
 
         {/* Education */}
         <div className="basic-education">

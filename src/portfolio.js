@@ -390,17 +390,6 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Product development ",
-          company: "Milacron India",
-          company_url: "https://www.milacronindia.com/",
-          logo_path: "milacron_logo.jpeg",
-          duration: "July 2018 - Oct 2021",
-          location: "Ahmedabad, Gujarat",
-          description:
-            "Leading plastic machinery MNC where I collaborated with global teams on research and development and product development of Industry 4.0 platform for injection moulding machines. Performed data analysis, developed algorithms, integrated with machines. Developed digital transformation solution to reduce process inefficiencies.",
-          color: "#0879bf",
-        },
-        {
           title: "Operations and Development",
           company: "Bharat Hardware & Marketing",
           company_url: "",
@@ -410,6 +399,17 @@ const experience = {
           description:
             "Developed a SaaS product that resulted into material saving of 12-15%. Digital transformation, handling day to day operations of business. ",
           color: "#9b1578",
+        },
+        {
+          title: "Product development ",
+          company: "Milacron India",
+          company_url: "https://www.milacronindia.com/",
+          logo_path: "milacron_logo.jpeg",
+          duration: "July 2018 - Oct 2021",
+          location: "Ahmedabad, Gujarat",
+          description:
+            "Leading plastic machinery MNC where I collaborated with global teams on research and development and product development of Industry 4.0 platform for injection moulding machines. Performed data analysis, developed algorithms, integrated with machines. Developed digital transformation solution to reduce process inefficiencies.",
+          color: "#0879bf",
         },
       ],
     },
