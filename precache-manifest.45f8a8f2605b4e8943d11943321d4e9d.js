@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ee4f223c2b799ba046fb84a1d6725e5f",
+    "revision": "cb86db95c235c3518afabba3207b15fd",
     "url": "./index.html"
   },
   {
-    "revision": "c75c4fdc98d199e30149",
-    "url": "./static/css/main.3f60e70f.chunk.css"
+    "revision": "8096a7bd4e83ef5bda15",
+    "url": "./static/css/main.1ea710cf.chunk.css"
   },
   {
-    "revision": "03b8e39c13c93a7bd180",
-    "url": "./static/js/2.86cf6822.chunk.js"
+    "revision": "e25bd4e5689698d31768",
+    "url": "./static/js/2.c914bf92.chunk.js"
   },
   {
-    "revision": "c75c4fdc98d199e30149",
-    "url": "./static/js/main.a1ffeb69.chunk.js"
+    "revision": "8096a7bd4e83ef5bda15",
+    "url": "./static/js/main.1c70ffed.chunk.js"
   },
   {
     "revision": "04f11759d684be2a2dda",
@@ -212,8 +212,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/harshad_vekariya.a2f9ec2f.png"
   },
   {
-    "revision": "ad8bc4d8c83a9ac2afa2d89da0a1990d",
-    "url": "./static/media/harshad_vekariya_c.ad8bc4d8.png"
+    "revision": "8095d3c8d47eb71e42cadec7a7dbe38f",
+    "url": "./static/media/harshad_vekariya_c.8095d3c8.png"
   },
   {
     "revision": "480ec087ce059e72452da4a320b12bcd",
